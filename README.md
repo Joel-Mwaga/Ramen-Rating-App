@@ -47,4 +47,6 @@ This project was created by **Joel Mwaga**, an experienced software engineer pas
 
 ## License
 This project is open-source and available under the [MIT License](LICENSE).
+## Copyright
+© 2023 Joel Mwaga. All rights reserved.
 
