@@ -29,6 +29,7 @@ document.getElementById('ramen-menu').addEventListener('click', function(event) 
         if (ramen) {
             const ramenDetail = document.getElementById('ramen-detail');
             ramenDetail.innerHTML = `
+                <img src="${ramen.image}" alt="${ramen.name}" class="detail-image">
                 <h2>${ramen.name}</h2>
                 <h3>${ramen.restaurant}</h3>
                 ${ramen.rating ? `<p>Rating: ${ramen.rating}</p>` : ''}
@@ -39,7 +40,7 @@ document.getElementById('ramen-menu').addEventListener('click', function(event) 
 });
 
 function addSubmitListener() {
-    const form = document.getElementById('new-ramen');
+    const form = document.getElementById('new-ramen-form');
     form.addEventListener('submit', function(event) {
         event.preventDefault();
         const newRamen = {

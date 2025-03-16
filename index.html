@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="rating.html">Rating</a></li>
+                <li><a href="#rating">Rating</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
@@ -30,11 +30,29 @@
         <div id="ramen-menu">
             <h2>Ramen Images</h2>
         </div>
-        <div id="ramen-detail">
-        </div> 
-        <div id="new-ramen"></div>   
-    </section>
-    <section></section>
+        <div id="ramen-detail"></div>
+        <section>
+            <form id="new-ramen-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="restaurant">Restaurant:</label>
+                <input type="text" id="restaurant" name="restaurant" required>
+                <label for="image">Image URL:</label>
+                <input type="text" id="image" name="image" required>
+                <label for="rating">Rating:</label>
+                <input type="number" id="rating" name="rating" min="1" max="5" required>
+                <label for="comment">Comment:</label>
+                <textarea id="comment" name="comment" required></textarea>
+                <button type="submit">Add Ramen</button>
+            </form>       
+        </section>
+        <section>
+            <div id="contact">
+                <h1>Contacts</h1>
+                <p>phone: +254791166009</p>
+                <p>email: mwagahjoel14@gmail.com</p>
+            </div>
+        </section>
     <script src="index.js"></script>
 </body>
 </html>

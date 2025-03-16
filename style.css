@@ -23,11 +23,10 @@ body {
 background-image: url('ramen background image/image.png');
 background-size: cover;
 background-repeat: no-repeat;
-background-color: #f0f0f0;
 }
 #home h2,p{
     text-align: center;
-    color: tomato;
+    color: rgb(3, 3, 3);
 }
 #ramen-menu{
     display: flex;
@@ -62,4 +61,22 @@ background-color: #f0f0f0;
 .ramen-container p {
     margin: 0;
     font-weight: bold;
+}
+
+#ramen-detail {
+    color: orange;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.detail-image {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+#contact p{
+    color: blanchedalmond;
+}
+#contact h1{
+    text-align: center;
 }
