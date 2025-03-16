@@ -1,0 +1,56 @@
+header {
+    color: rgb(241, 95, 11);
+    text-align: center;
+}
+nav {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 50px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;  
+}
+nav ul li a {
+    color: orange;
+    text-decoration: none;
+}
+body {
+background-image: url('ramen images/image.png');
+background-size: cover;
+background-repeat: no-repeat;
+}
+#home h2,p{
+    text-align: center;
+    color: tomato;
+}
+#ramen-images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 50px;
+    position: relative;
+}
+
+#ramen-images img {
+    width: 150px;
+    height: auto;
+    border-radius: 100px;
+}
+
+#ramen-images h2 {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    color: rgb(32, 15, 5);
+    padding: 10px 0;
+    display: inline-block;
+    border-radius: 10px;
+    margin: -50px;
+}
+
