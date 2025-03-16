@@ -20,15 +20,16 @@ nav ul li a {
     text-decoration: none;
 }
 body {
-background-image: url('ramen images/image.png');
+background-image: url('ramen background image/image.png');
 background-size: cover;
 background-repeat: no-repeat;
+background-color: #f0f0f0;
 }
 #home h2,p{
     text-align: center;
     color: tomato;
 }
-#ramen-images {
+#ramen-menu{
     display: flex;
     justify-content: center;
     gap: 10px;
@@ -36,13 +37,13 @@ background-repeat: no-repeat;
     position: relative;
 }
 
-#ramen-images img {
+#ramen-menu img {
     width: 150px;
     height: auto;
     border-radius: 100px;
 }
 
-#ramen-images h2 {
+#ramen-menu h2 {
     position: absolute;
     top: 0;
     width: 100%;
@@ -54,3 +55,11 @@ background-repeat: no-repeat;
     margin: -50px;
 }
 
+.ramen-container {
+    text-align: center;
+}
+
+.ramen-container p {
+    margin: 0;
+    font-weight: bold;
+}
