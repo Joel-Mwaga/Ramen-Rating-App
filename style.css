@@ -154,3 +154,6 @@ body {
     text-align: center;
     font-size: larger;
 }
+#copyright p{
+    color: black;
+}
